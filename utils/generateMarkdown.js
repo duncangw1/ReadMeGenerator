@@ -1,5 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  // Creating variable and conditions to determine which license badge to display (if any)
   let licenseBadge = ``;
   if (data.license === "None") {
     licenseBadge = ``;
@@ -13,9 +14,10 @@ function generateMarkdown(data) {
     licenseBadge = `# [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
   }
 
+  // Markdown structure
   return `
   # ${data.title}
-  
+
   ${licenseBadge}
 
   ## Description
@@ -30,7 +32,7 @@ function generateMarkdown(data) {
   - [Questions](#questions)
 
   ## Installation
-  ${data.install}
+  > ${data.install}
 
   ## Usage
   ${data.usage}
@@ -42,11 +44,12 @@ function generateMarkdown(data) {
   ${data.contrib}
 
   ## Tests
-  ${data.testing}
+  > ${data.testing}
 
   ## Questions
-  ${data.username}
-  ${data.email}
+  - Github: [${data.username}](#https://github.com/${data.username})
+  - Email: ${data.email}
+  *The best time to reach me is from 8:00am-5:00pm EST, Monday-Friday. All questions will be answered in a timely manner. Emails are preferred.*
 `;
 }
 

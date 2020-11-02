@@ -62,7 +62,7 @@ function writeToFile(fileName, data) {
     if (err) {
       return console.log(err);
     } else {
-      console.log("Success! Your README file has been created.");
+      console.log("Success! Generating README...");
     }
   });
 }
