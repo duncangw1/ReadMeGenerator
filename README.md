@@ -17,7 +17,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Installation
 
-_How to install and get the application running_
+_How to install and get the application running._
 
 - Install dependencies using > npm i
 - Invoke the application using > node index.js
@@ -27,9 +27,11 @@ _How to install and get the application running_
 
 ## Usage
 
-_Guidelines for usage and link to Walkthrough Video_
+_Guidelines for usage and link to Walkthrough Video._
 
 This application may be used to quickly and easily generate a high quality README file for any personal, professional, or educational purposes. Please view the [Walkthrough Video](#) for an overview of the application in action.
+
+![README Generator Demo](./assets/images/READMEGenerator.gif)
 
 ## Licenses
 
@@ -39,7 +41,7 @@ Copyright (c) 2020 duncangw1
 
 ## Contributing
 
-_Interested in contributing? See info below_
+_Interested in contributing? See the info below._
 
 Contributions are always welcome. If interested, please send an email describing your contribution before submitting a pull request. Pull requests that are opened with a corresponding email will be reviewed as soon as time permits.
 
@@ -51,5 +53,5 @@ No tests have been included in this application at this time.
 
 _The best time to reach me is from 8:00am-5:00pm EST, Monday-Friday. All questions will be answered in a timely manner. Emails are preferred._
 
-- Github: [duncangw1](#https://github.com/duncangw1)
+- Github: [duncangw1](https://github.com/duncangw1)
 - Email: duncangw1@gmail.com

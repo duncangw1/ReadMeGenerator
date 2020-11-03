@@ -48,7 +48,7 @@ function generateMarkdown(data) {
 
   ## Questions
   *The best time to reach me is from 8:00am-5:00pm EST, Monday-Friday. All questions will be answered in a timely manner. Emails are preferred.*
-  - Github: [${data.username}](#https://github.com/${data.username})
+  - Github: [${data.username}](https://github.com/${data.username})
   - Email: ${data.email}
 `;
 }
