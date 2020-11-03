@@ -4,7 +4,7 @@
 
 ## Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The purpose of the README Generator is to allow developers to easily create a professional README file for their projects. This is a command-line application that dynamically generates a README file from the user's input. The technologies utilized to make this possible are JavaScript, Node.js, and the Inquirer package. Once invoked, the user will be prompted to enter their project title, description, installation instructions, usage information, license information, contribution guidelines, test instructions, and contact information. The README Generator will then automatically create a functioning Table of Contents.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ _How to install & get the application running._
 
 _Guidelines for usage & link to Walkthrough Video._
 
-This application may be used to quickly and easily generate a high quality README file for any personal, professional, or educational purposes. Please view the [Walkthrough Video](#) for an overview of the application in action.
+This application may be used to quickly and easily generate a high quality README file for any personal, professional, or educational purposes. Please view the [Walkthrough Video](https://www.youtube.com/watch?v=QtxRCsNQkSY&feature=youtu.be) for an overview of the application in action.
 
 ![README Generator Demo](./assets/images/READMEGenerator.gif)
 
