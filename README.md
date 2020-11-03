@@ -4,7 +4,7 @@
 
 ## Description
 
-The purpose of the README Generator is to allow developers to easily create a professional README file for their projects. This is a command-line application that dynamically generates a README file from the user's input. The technologies utilized to make this possible are JavaScript, Node.js, and the Inquirer package. Once invoked, the user will be prompted to enter their project title, description, installation instructions, usage information, license information, contribution guidelines, test instructions, and contact information. The README Generator will then automatically create a functioning Table of Contents.
+The purpose of the README Generator is to allow developers to easily create a professional README file for their projects. This is a command-line application that dynamically generates a README file from the user's input. The technologies utilized to make this possible are JavaScript, Node.js, and the Inquirer package. Once invoked, the user will be prompted to enter their project title, description, installation instructions, usage information, license information, contribution guidelines, test instructions, and contact information. The README Generator will then automatically create a new README file with the user's input and a functioning Table of Contents.
 
 ## Table of Contents
 
