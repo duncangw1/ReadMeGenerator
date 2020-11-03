@@ -73,10 +73,7 @@ const writeFileAsync = util.promisify(writeToFile);
 async function init() {
   try {
     const data = await inquirer.prompt(questions);
-    console.log(data);
-
     const readMe = generateMarkdown(data);
-
     await writeFileAsync("sampleREADME.md", readMe);
   } catch (error) {
     console.log(error);
